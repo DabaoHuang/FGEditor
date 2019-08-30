@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./ClickEditor.js"></script>
+
+    <script>
+        window.onload = function () {
+            var FGE = new FGEditor();
+            FGE.init();
+        }
+
+
+        // edit-select
+        function schange(id)
+        {
+            // ajax ...
+        }
+
+        // edit-textarea edit-input
+        function tsubmit(id)
+        {
+            // ajax ... 
+        }
+    </script>
+</head>
+<body>
+    <table border="1" collapse=0>
+        <tbody>
+            <tr>
+                <td><div class="FGE-select" data-id="select-1" data-command="schange" data-source="select,one,two,three">two</div></td>
+                <td><div class="FGE-input" data-id="input-1" data-command="tsubmit" data-type="date">Dabao Huang</div></td>
+                <td><div class="FGE-textarea" data-command="tsubmit" data-id="content-1">Hi ,<br>say something ...</div></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
