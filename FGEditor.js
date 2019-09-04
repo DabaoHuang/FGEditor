@@ -1,5 +1,5 @@
 
-    var FGEditor = function(v) {
+    var FGEditor = function() {
 
         let d = document;
         let FGE = this;
