@@ -9,7 +9,7 @@
 </p> -->
 
 ![Build](https://img.shields.io/badge/Build-success-green)
-![GitHub license](https://img.shields.io/github/license/DabaoHuang/FGEditor.js.svg)](https://github.com/DabaoHuang/FGEditor.js/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/DabaoHuang/FGEditor.js.svg)](https://github.com/DabaoHuang/FGEditor.js/blob/master/LICENSE)
 
 ## How to use ? 
 
