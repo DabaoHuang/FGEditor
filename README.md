@@ -13,7 +13,7 @@
 
 ## How to use ? 
 
-Demo
+head
 ```
 <scirpt src="./FGEditor.js"></script>
 
@@ -35,9 +35,11 @@ Demo
   }
 </script>
 
-<body>
-  <div class="FGE-select" data-id="select-1" data-command="data_change" data-source="select,one,two,three">two</div>
-  <div class="FGE-input" data-id="input-1" data-command="data_submit" data-type="date">Dabao Huang</div>
-  <div class="FGE-textarea" data-command="data_submit" data-id="content-1">Hi ,<br>say something ...</div>
-</body>
+```
+
+body
+```
+<div class="FGE-select" data-id="select-1" data-command="data_change" data-source="select,one,two,three">two</div>
+<div class="FGE-input" data-id="input-1" data-command="data_submit" data-type="date">Dabao Huang</div>
+<div class="FGE-textarea" data-command="data_submit" data-id="content-1">Hi ,<br>say something ...</div>
 ```
